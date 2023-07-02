@@ -4,8 +4,7 @@ Panzer CPU Gauge Yahoo Widget, written in Javascript and XML for the Yahoo
 Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
 Apple Mac.
 
-![panzerStorage650](https://github.com/yereverluvinunclebert/Panzer-Storage-Gauge-Ywidget/assets/2788342/c09a4cbe-ddde-4d76-a0d4-f7294f317e0a)
-
+![panzerCPU650](https://github.com/yereverluvinunclebert/Panzer-CPU-gauge-Ywidget/assets/2788342/b288540c-7a79-42e1-8281-ec77ce2b36b5)
 
 This Panzer widget is an attractive dieselpunk Yahoo widget for your desktop. 
 It is a simple CPU usage gauge. The CPU gauge displays CPU usage for your 
@@ -48,7 +47,7 @@ Running the widget using a javascript engine frees javascript from running only
 within the captivity of a browser, you will now be able to run these widgets on 
 your Windows desktop as long as you have the correct widget engine installed.
 
-![tank-help-750](https://github.com/yereverluvinunclebert/Panzer-Storage-Gauge-Ywidget/assets/2788342/fdfda55c-7e25-4908-ae5c-90e4c3c15961)
+![tank-help-750](https://github.com/yereverluvinunclebert/Panzer-CPU-gauge-Ywidget/assets/2788342/7111d9a1-f5c1-4b9e-a27d-47f5482bbdb0)
 
  
 Instructions for running Yahoo widgets on Windows
@@ -82,7 +81,8 @@ Wit these instructions you should be able to start Yahoo! Widgets and the
 menubar item should appear. Widgets can then be started from the menubar or by 
 double-clicking on the KON file in the usual way.
 
-![about](https://github.com/yereverluvinunclebert/Panzer-Storage-Gauge-Ywidget/assets/2788342/27808426-989e-4507-95e0-996b10ae1fd7)
+![about](https://github.com/yereverluvinunclebert/Panzer-CPU-gauge-Ywidget/assets/2788342/cad3ea10-1a1f-4d8c-a125-02816d620bb0)
+
 
 LICENCE AGREEMENTS:
 
