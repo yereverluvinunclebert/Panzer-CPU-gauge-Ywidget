@@ -44,6 +44,7 @@ Tested on :
  
 	Yahoo widget engine for Windows - http://g6auc.me.uk/ywidgets_sdk_setup.exe  
 	Yahoo widget engine for Mac - https://rickyromero.com/widgets/downloads/yahoo-widgets-4.5.2.dmg
+	Yahoo Widgets SDK: engine (Konfabulator), debugger & documentation
 
 Running the widget using a javascript engine frees javascript from running only 
 within the captivity of a browser, you will now be able to run these widgets on 
