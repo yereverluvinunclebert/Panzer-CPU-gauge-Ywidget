@@ -247,33 +247,32 @@ function findWidget() {
 //=========================================================================
 function setmenu() {
 	mainWindow.onContextMenu = function () {
-              var items = [], mItem, sItem;
+        var items = [], mItem, sItem;
 
-              mItem = new MenuItem();
-              mItem.title = "Donate a Coffee with Ko-Fi";
-              mItem.onSelect = function () {
-                  menuitem2OnClick();
-              };
+        mItem = new MenuItem();
+        mItem.title = "Donate a Coffee with Ko-Fi";
+        mItem.onSelect = function () {
+            menuitem2OnClick();
+        };
       	items.push(mItem);
       
-
-              mItem = new MenuItem();
-              mItem.title = "";
-              mItem.onSelect = function () {
-                  nullfunction();
-              };
+        mItem = new MenuItem();
+        mItem.title = "";
+        mItem.onSelect = function () {
+            nullfunction();
+        };
       	items.push(mItem);
 
-              mItem = new MenuItem();
-              mItem.title = "Panzer CPU Gauge Help";
-              mItem.onSelect = function () {
-                  tankHelpShow();
-              };
+        mItem = new MenuItem();
+        mItem.title = "Panzer CPU Gauge Help";
+        mItem.onSelect = function () {
+            tankHelpShow();
+        };
       	items.push(mItem);
 
-              mItem = new MenuItem();
-              mItem.title = "Online Help and other online options";
-      	      items.push(mItem);
+        mItem = new MenuItem();
+        mItem.title = "Online Help and other online options";
+        items.push(mItem);
 
               sItem = new MenuItem();
               sItem.title = "See More Steampunk Widgets";
@@ -301,20 +300,20 @@ function setmenu() {
               sItem.onSelect = function() {
                   facebookChat();
               };
-              mItem.appendChild(sItem);
+        mItem.appendChild(sItem);
 
-              mItem = new MenuItem();
-              mItem.title = "Display Licence Agreement...";
-              mItem.onSelect = function () {
-                  displayLicence();
-              };
+        mItem = new MenuItem();
+        mItem.title = "Display Licence Agreement...";
+        mItem.onSelect = function () {
+            displayLicence();
+        };
       	items.push(mItem);
       
-              mItem = new MenuItem();
-              mItem.title = "";
-              mItem.onSelect = function() {
-                  nullfunction();
-              };
+        mItem = new MenuItem();
+        mItem.title = "";
+        mItem.onSelect = function() {
+            nullfunction();
+        };
       	items.push(mItem);
       
               mItem = new MenuItem();

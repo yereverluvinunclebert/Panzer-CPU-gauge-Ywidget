@@ -73,7 +73,7 @@ include("functions.js");
 include("Resources/Licence/licence.js");
 
 //===============================================================
-// this function is
+// this function is called by onload
 //===============================================================
 function startup() {
     debugFlg = preferences.debugflgPref.value;
