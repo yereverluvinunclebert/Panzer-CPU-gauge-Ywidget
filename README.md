@@ -39,7 +39,7 @@ Tested on :
    
  Dependencies:
  
- o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX 11.    	
+ o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX prior to Catalina.    	
  
  o Installation of the yahoo widget SDK runtime engine  
  
@@ -68,7 +68,7 @@ Instructions for running Yahoo widgets on Mac OS/X ONLY
 1. Install yahoo widget SDK runtime engine for Mac
 2. Download the gauge from this repo.
 3. Unzip it
-4. For all all recent versions of Mac OS/X including Sierra, edit the following 
+4. For all all recent versions of Mac OS/X up to and including Mojave, edit the following 
 file:
 
 com.yahoo.widgetengine.plist which is in /Users/xxx/Library/Preferences. Look 
