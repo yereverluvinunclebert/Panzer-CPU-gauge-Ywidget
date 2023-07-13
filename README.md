@@ -2,7 +2,7 @@
  
 Panzer CPU Gauge Yahoo Widget, written in Javascript and XML for the Yahoo 
 Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
-Apple Mac.
+Apple Mac OSX prior to Catalina.   .
 
 ![panzerCPU650](https://github.com/yereverluvinunclebert/Panzer-CPU-gauge-Ywidget/assets/2788342/b288540c-7a79-42e1-8281-ec77ce2b36b5)
 
@@ -23,7 +23,7 @@ Built using:
 
 	RJTextEd Advanced Editor  https://www.rj-texted.se/ 
 	Adobe Photoshop CS ver 8.0 (2003)  https://www.adobe.com/uk/products/photoshop/free-trial-download.html  
-	Yahoo Widgets SDK: engine (Konfabulator), debugger & documentation
+
 
 Tested on :
 

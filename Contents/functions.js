@@ -151,6 +151,20 @@ function menuitem3OnClick() {
 //End function
 //=====================
 
+
+//===========================================
+// this function opens the browser at the contact URL
+//===========================================
+function facebookChat() {
+    var answer = alert("Visiting the Facebook chat page - this button opens a browser window and connects to our Facebook chat page.). Proceed?", "Open Browser Window", "No Thanks");
+    if (answer === 1) {
+        openURL("http://www.facebook.com/profile.php?id=100012278951649");
+    }
+}
+//=====================
+//End function
+//=====================
+
 //===========================================
 // this function opens other widgets URL
 //===========================================
@@ -300,7 +314,7 @@ function setmenu() {
               sItem.onSelect = function() {
                   facebookChat();
               };
-        mItem.appendChild(sItem);
+             mItem.appendChild(sItem);
 
         mItem = new MenuItem();
         mItem.title = "Display Licence Agreement...";
