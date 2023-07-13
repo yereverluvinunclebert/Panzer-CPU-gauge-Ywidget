@@ -127,7 +127,7 @@ function menuitem1OnClick() {
 //===========================================
 // this function opens the URL for paypal
 //===========================================
-function menuitem2OnClick() {
+function donate() {
 	var answer = alert("Help support the creation of more widgets like this, send us a coffee! This button opens a browser window and connects to the Kofi donate page for this widget). Will you be kind and proceed?", "Open Browser Window", "No Thanks");
 
 	if (answer === 1) {
@@ -137,19 +137,7 @@ function menuitem2OnClick() {
 //=====================
 //End function
 //=====================
-//===========================================
-// this function opens my Amazon URL wishlist
-//===========================================
-function menuitem3OnClick() {
-	var answer = alert("Help support the creation of more widgets like this. Buy me a small item on my Amazon wishlist! This button opens a browser window and connects to my Amazon wish list page). Will you be kind and proceed?", "Open Browser Window", "No Thanks");
 
-	if (answer === 1) {
-		openURL("http://www.amazon.co.uk/gp/registry/registry.html?ie=UTF8&id=A3OBFB6ZN4F7&type=wishlist");
-	}
-}
-//=====================
-//End function
-//=====================
 
 
 //===========================================
@@ -168,7 +156,7 @@ function facebookChat() {
 //===========================================
 // this function opens other widgets URL
 //===========================================
-function menuitem5OnClick() {
+function otherWidgets() {
 	var answer = alert("This button opens a browser window and connects to the Steampunk widgets page on my site. Do you wish to proceed", "Open Browser Window", "No Thanks");
 
 	if (answer === 1) {
@@ -181,7 +169,7 @@ function menuitem5OnClick() {
 //===========================================
 // this function opens the download URL
 //===========================================
-function menuitem6OnClick() {
+function update() {
 	var answer = alert("Download latest version of the widget - this button opens a browser window and connects to the widget download page where you can check and download the latest zipped .WIDGET file). Proceed?", "Open Browser Window", "No Thanks");
 
 	if (answer === 1) {
@@ -194,7 +182,7 @@ function menuitem6OnClick() {
 //===========================================
 // this function opens the browser at the contact URL
 //===========================================
-function menuitem7OnClick() {
+function support() {
 	var answer = alert("Visiting the support page - this button opens a browser window and connects to our contact us page where you can send us a support query or just have a chat). Proceed?", "Open Browser Window", "No Thanks");
 
 	if (answer === 1) {
@@ -266,7 +254,7 @@ function setmenu() {
         mItem = new MenuItem();
         mItem.title = "Donate a Coffee with Ko-Fi";
         mItem.onSelect = function () {
-            menuitem2OnClick();
+            donate();
         };
       	items.push(mItem);
       
@@ -291,21 +279,21 @@ function setmenu() {
               sItem = new MenuItem();
               sItem.title = "See More Steampunk Widgets";
               sItem.onSelect = function () {
-                  menuitem5OnClick();
+                  otherWidgets();
               };
               mItem.appendChild(sItem);
 
               sItem = new MenuItem();
               sItem.title = "Download Latest Version";
               sItem.onSelect = function () {
-                  menuitem6OnClick();
+                  update();
               };
               mItem.appendChild(sItem);
 
               sItem = new MenuItem();
               sItem.title = "Contact Support";
               sItem.onSelect = function () {
-                  menuitem7OnClick();
+                  support();
               };
               mItem.appendChild(sItem);
 

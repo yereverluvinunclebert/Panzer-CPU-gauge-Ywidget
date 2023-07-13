@@ -23,7 +23,7 @@ Built using:
 
 	RJTextEd Advanced Editor  https://www.rj-texted.se/ 
 	Adobe Photoshop CS ver 8.0 (2003)  https://www.adobe.com/uk/products/photoshop/free-trial-download.html  
-
+  Yahoo Widgets SDK: engine (Konfabulator), runtime, debugger & documentation
 
 Tested on :
 
@@ -35,8 +35,8 @@ Tested on :
 	Windows 10 Home 64bit on Intel    
 	Windows 10 Home 64bit on AMD    
 	Windows 11 64bit on Intel  
-  
-   
+	
+
  Dependencies:
  
  o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX prior to Catalina.    	
@@ -45,7 +45,7 @@ Tested on :
  
 	Yahoo widget engine for Windows - http://g6auc.me.uk/ywidgets_sdk_setup.exe  
 	Yahoo widget engine for Mac - https://rickyromero.com/widgets/downloads/yahoo-widgets-4.5.2.dmg
-	Yahoo Widgets SDK: engine (Konfabulator), debugger & documentation
+
 
 Running the widget using a javascript engine frees javascript from running only 
 within the captivity of a browser, you will now be able to run these widgets on 
