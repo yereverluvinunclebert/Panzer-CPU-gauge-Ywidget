@@ -2,7 +2,9 @@
  
 Panzer CPU Gauge Yahoo Widget, written in Javascript and XML for the Yahoo 
 Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
-Apple Mac OSX prior to Catalina.   .
+Apple Mac OSX prior to Catalina.   
+
+This widget is now deprecated and is retained for historical reasons only, it still works but time moves ever onward - please use the VB6 version instead that you will find here: https://github.com/yereverluvinunclebert/Panzer-CPU-Gauge-VB6
 
 ![panzerCPU650](https://github.com/yereverluvinunclebert/Panzer-CPU-gauge-Ywidget/assets/2788342/b288540c-7a79-42e1-8281-ec77ce2b36b5)
 
